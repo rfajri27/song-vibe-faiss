@@ -22,7 +22,7 @@ def run():
 
     # Text input in the center of the page
     st.markdown(
-        "<h1 style='text-align: center; color: white;'>Tired of songs that you just don't ... vibe with ?</h1>",
+        "<h1 style='text-align: center; color: white;'>SoundSoul: Find Songs That Match Your Mood</h1>",
         unsafe_allow_html=True,
     )
     user_input = st.text_input(
